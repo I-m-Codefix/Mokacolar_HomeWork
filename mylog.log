@@ -1,0 +1,72 @@
+2022-06-07 16:03:16.722  INFO 12696 --- [restartedMain] c.e.f.FirstPracticeApplication           : Starting FirstPracticeApplication using Java 11.0.14 on LAPTOP-849386UG with PID 12696 (C:\Users\Jinyong-Ahn\Desktop\Mokacolar_HomeWork\target\classes started by Jinyong-Ahn in C:\Users\Jinyong-Ahn\Desktop\Mokacolar_HomeWork)
+2022-06-07 16:03:16.728  INFO 12696 --- [restartedMain] c.e.f.FirstPracticeApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-07 16:03:16.990  INFO 12696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-07 16:03:16.991  INFO 12696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-07 16:03:20.622  INFO 12696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-07 16:03:20.650  INFO 12696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-07 16:03:20.651  INFO 12696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-07 16:03:20.929  INFO 12696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-07 16:03:20.930  INFO 12696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3936 ms
+2022-06-07 16:03:22.128  WARN 12696 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-06-07 16:03:22.346  INFO 12696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-07 16:03:22.489  INFO 12696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-07 16:03:22.618  INFO 12696 --- [restartedMain] c.e.f.FirstPracticeApplication           : Started FirstPracticeApplication in 8.451 seconds (JVM running for 15.843)
+2022-06-07 16:03:34.808  INFO 12696 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-07 16:03:34.812  INFO 12696 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-07 16:03:34.815  INFO 12696 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-07 16:03:34.882  INFO 12696 --- [http-nio-8080-exec-2] c.e.f.controller.AdminController         : getRequest 호출
+2022-06-07 16:03:34.884  INFO 12696 --- [http-nio-8080-exec-2] c.e.f.controller.AdminController         : mokacolar의 요청 info
+2022-06-07 16:03:34.885  INFO 12696 --- [http-nio-8080-exec-2] c.e.first_practice.service.AdminService  : createAdmin 호출 : mokacolar를 Repository에 저장합니다.
+2022-06-07 16:03:34.957  INFO 12696 --- [http-nio-8080-exec-2] c.e.f.repository.AdminMemoryRepository   : save 호출 : Admin(adminId=mokacolar, adminRole=primary, adminPwd=111111, adminName=jinyong, subDept=null, email=null, companyTel=null, mobileTel=null, useYn=null, regDT=null, regId=null, updateDT=null)이 DB에 저장됐습니다.
+2022-06-07 19:20:41.190  INFO 12564 --- [restartedMain] c.e.f.FirstPracticeApplication           : Starting FirstPracticeApplication using Java 11.0.14 on LAPTOP-849386UG with PID 12564 (C:\Users\Jinyong-Ahn\Desktop\Mokacolar_HomeWork\target\classes started by Jinyong-Ahn in C:\Users\Jinyong-Ahn\Desktop\Mokacolar_HomeWork)
+2022-06-07 19:20:41.195  INFO 12564 --- [restartedMain] c.e.f.FirstPracticeApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-07 19:20:41.514  INFO 12564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-07 19:20:41.519  INFO 12564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-07 19:20:46.570  INFO 12564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-07 19:20:46.598  INFO 12564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-07 19:20:46.599  INFO 12564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-07 19:20:46.975  INFO 12564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-07 19:20:46.977  INFO 12564 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5457 ms
+2022-06-07 19:20:49.351  WARN 12564 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-06-07 19:20:49.822  INFO 12564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-07 19:20:49.968  INFO 12564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-07 19:20:50.002  INFO 12564 --- [restartedMain] c.e.f.FirstPracticeApplication           : Started FirstPracticeApplication in 10.986 seconds (JVM running for 16.803)
+2022-06-07 19:20:58.786  INFO 12564 --- [http-nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-07 19:20:58.788  INFO 12564 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-07 19:20:58.791  INFO 12564 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-07 19:20:58.967  INFO 12564 --- [http-nio-8080-exec-9] c.e.f.controller.AdminController         : getRequest 호출
+2022-06-07 19:20:58.973  INFO 12564 --- [http-nio-8080-exec-9] c.e.f.controller.AdminController         : mokacolar의 요청 info
+2022-06-07 19:20:58.979  INFO 12564 --- [http-nio-8080-exec-9] c.e.first_practice.service.AdminService  : createAdmin 호출 : mokacolar를 Repository에 저장합니다.
+2022-06-07 19:20:59.160  INFO 12564 --- [http-nio-8080-exec-9] c.e.f.repository.AdminMemoryRepository   : save 호출 : Admin(adminId=mokacolar, adminRole=primary, adminPwd=111111, adminName=jinyong, subDept=null, email=null, companyTel=null, mobileTel=null, useYn=null, regDT=null, regId=null, updateDT=null)이 DB에 저장됐습니다.
+2022-06-07 19:20:59.163  INFO 12564 --- [http-nio-8080-exec-9] c.example.first_practice.aop.LogAspect   : StopWatch '': running time = 262384800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+262384800  100%  
+
+2022-06-07 19:26:13.035  INFO 2480 --- [restartedMain] c.e.f.FirstPracticeApplication           : Starting FirstPracticeApplication using Java 11.0.14 on LAPTOP-849386UG with PID 2480 (C:\Users\Jinyong-Ahn\Desktop\Mokacolar_HomeWork\target\classes started by Jinyong-Ahn in C:\Users\Jinyong-Ahn\Desktop\Mokacolar_HomeWork)
+2022-06-07 19:26:13.040  INFO 2480 --- [restartedMain] c.e.f.FirstPracticeApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-07 19:26:13.266  INFO 2480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-07 19:26:13.267  INFO 2480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-07 19:26:17.313  INFO 2480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-07 19:26:17.343  INFO 2480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-07 19:26:17.344  INFO 2480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-07 19:26:17.760  INFO 2480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-07 19:26:17.761  INFO 2480 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4491 ms
+2022-06-07 19:26:21.395  WARN 2480 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-06-07 19:26:22.359  INFO 2480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-07 19:26:22.977  INFO 2480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-07 19:26:23.069  INFO 2480 --- [restartedMain] c.e.f.FirstPracticeApplication           : Started FirstPracticeApplication in 12.806 seconds (JVM running for 23.389)
+2022-06-07 19:26:41.579  INFO 2480 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-07 19:26:41.581  INFO 2480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-07 19:26:41.584  INFO 2480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-06-07 19:26:41.851  INFO 2480 --- [http-nio-8080-exec-1] c.e.f.controller.AdminController         : getRequest 호출
+2022-06-07 19:26:41.856  INFO 2480 --- [http-nio-8080-exec-1] c.e.f.controller.AdminController         : mokacolar의 요청 info
+2022-06-07 19:26:41.857  INFO 2480 --- [http-nio-8080-exec-1] c.e.first_practice.service.AdminService  : createAdmin 호출 : mokacolar를 Repository에 저장합니다.
+2022-06-07 19:26:41.924  INFO 2480 --- [http-nio-8080-exec-1] c.e.f.repository.AdminMemoryRepository   : save 호출 : Admin(adminId=mokacolar, adminRole=primary, adminPwd=111111, adminName=jinyong, subDept=null, email=null, companyTel=null, mobileTel=null, useYn=null, regDT=null, regId=null, updateDT=null)이 DB에 저장됐습니다.
+2022-06-07 19:26:46.016  INFO 2480 --- [http-nio-8080-exec-1] c.example.first_practice.aop.LogAspect   : StopWatch '': running time = 4196889800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+4196889800  100%  request1
+
